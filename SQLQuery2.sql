@@ -1,7 +1,6 @@
 USE UniversityDB;
 GO
 
--- Вставка даних у таблицю Departments
 INSERT INTO Departments (Financing, Name, Building, Floor)
 VALUES 
     (10000, 'Department of Mathematics', 1, 3),
@@ -10,13 +9,11 @@ VALUES
     (12000, 'Department of Biology', 4, 1),
     (18000, 'Department of Computer Science', 5, 5);
 
--- Вставка даних у таблицю Faculties
 INSERT INTO Faculties (Dean, Name)
 VALUES 
     ('John Doe', 'Faculty of Science'),
     ('Jane Smith', 'Faculty of Arts');
 
--- Вставка даних у таблицю Groups
 INSERT INTO Groups (Name, Rating, Year)
 VALUES 
     ('Group A', 4, 2),
@@ -24,7 +21,6 @@ VALUES
     ('Group C', 5, 4),
     ('Group D', 2, 1);
 
--- Вставка даних у таблицю Teachers
 INSERT INTO Teachers (EmploymentDate, IsAssistant, IsProfessor, Name, Position, Premium, Salary, Surname)
 VALUES 
     ('2000-01-01', 1, 0, 'Alice', 'Assistant Professor', 500, 1500, 'Johnson'),
